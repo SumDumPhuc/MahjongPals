@@ -7,6 +7,7 @@ import Rules from './components/pages/Rules';
 import Quiz from './components/pages/Quiz';
 import Leaderboard from './components/pages/Leaderboard';
 import SignUp from './components/pages/SignUp';
+import { AuthProvider } from './contexts/AuthContext';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
          <Route path='/rules' element={<Rules/>} />
          <Route path='/quiz' element={<Quiz/>} />
          <Route path='/leaderboard' element={<Leaderboard/>} />
-         <Route path='/sign-up' element={<SignUp/>} />
+         <Route path='/sign-up' element=
+         {<AuthProvider><SignUp /></AuthProvider>} />
         </Routes>
       </Router>
     </>
