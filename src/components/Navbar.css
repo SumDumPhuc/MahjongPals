@@ -22,11 +22,16 @@
   color: #fff;
   justify-self: start;
   margin-left: 20px;
+  margin-right: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
+}
+
+.fa-gamepad {
+  margin-left: 15px;
 }
 
 .fa-typo3 {

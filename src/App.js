@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Rules from './components/pages/Rules';
 import Quiz from './components/pages/Quiz';
-import Leaderboard from './components/pages/Leaderboard';
 import SignUp from './components/pages/SignUp';
-import { AuthProvider } from './contexts/AuthContext';
+import Leaderboard from './components/pages/Leaderboard';
+
 
 function App() {
   return (
@@ -19,8 +19,7 @@ function App() {
          <Route path='/rules' element={<Rules/>} />
          <Route path='/quiz' element={<Quiz/>} />
          <Route path='/leaderboard' element={<Leaderboard/>} />
-         <Route path='/sign-up' element=
-         {<AuthProvider><SignUp /></AuthProvider>} />
+         <Route path='/signup' element={<SignUp/>} /> 
         </Routes>
       </Router>
     </>
