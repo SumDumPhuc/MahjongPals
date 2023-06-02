@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Rules from './components/pages/Rules';
 import Quiz from './components/pages/Quiz';
 import SignUp from './components/pages/SignUp';
+import SignIn from './components/pages/SignIn';
 import Leaderboard from './components/pages/Leaderboard';
 
 
@@ -18,8 +19,9 @@ function App() {
          <Route path='/' exact element={<Home/>} />
          <Route path='/rules' element={<Rules/>} />
          <Route path='/quiz' element={<Quiz/>} />
-         <Route path='/leaderboard' element={<Leaderboard/>} />
+         <Route path='/leaderboard' element={<Leaderboard/>} /> 
          <Route path='/sign-up' element={<SignUp/>} /> 
+         <Route path='/sign-in' element={<SignIn/>} />
         </Routes>
       </Router>
     </>

@@ -7,22 +7,23 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <div className='hero-btns'>
+      <Button 
+      className="btns"
+      buttonStyle="btn--numberone"
+      buttonSize="btn--large"
+      to="/play-now"
+      >
+      PLAY NOW
+      </Button>
+
       <Button
-          className='btns'
-          buttonStyle='btn--numberone'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          PLAY NOW
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--numberone'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          SIGN IN
-        </Button>
+      className="btns"
+      buttonStyle="btn--numberone"
+      buttonSize="btn--large"
+      to="/sign-in"
+      >
+      SIGN IN
+      </Button>
       </div>
     </div>
   );
