@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import { Form, Button, Card } from 'react-bootstrap'
 import './SignUp.css';
+import {Link} from 'react-router-dom';
 
 function SignUp() {
     const emailRef = useRef()
@@ -31,7 +32,7 @@ function SignUp() {
         </Card.Body>
     </Card>
     <div className='w-100 text-center mt-2'>
-        Already have an account? Log In
+        Already have an account? <Link to='/sign-in'>Sign In</Link>
     </div>
     </>
   )
