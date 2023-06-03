@@ -23,39 +23,39 @@ function Footer() {
           </form>
         </div>
       </section>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               MahjongPals
               <i class='fas fa-gamepad' />
             </Link>
           </div>
-          <small class='website-rights'>MahjongPals © 2023</small>
-          <div class='social-icons'>
+          <small className='website-rights'>MahjongPals © 2023</small>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link youtube'
+              className='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
             <Link
-              class='social-icon-link apple'
+              className='social-icon-link apple'
               to='/'
               target='_blank'
               aria-label='Apple'
             >
-              <i class='fab fa-apple' />
+              <i className='fab fa-apple' />
             </Link>
             <Link
-              class='social-icon-link android'
+              className='social-icon-link android'
               to='/'
               target='_blank'
               aria-label='Android'
             >
-              <i class='fab fa-android' />
+              <i className='fab fa-android' />
             </Link>
           </div>
         </div>
