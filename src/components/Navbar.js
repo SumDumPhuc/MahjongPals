@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
 
+
 function Navbar() {
   const[click, setClick] = useState(false);
   const[button, setButton] = useState(true);
@@ -56,12 +57,17 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Sign Up
+                        <Link to='/profile' className='nav-links' onClick={closeMobileMenu}>
+                            Profile
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/play-now' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            Play Now
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--numbertwo' to='/sign-up'>SIGN UP</Button>}
+                {button && <Button buttonStyle='btn--numbertwo' to='/play-now'>PLAY NOW</Button>}
             </div>
         </nav>
     </>

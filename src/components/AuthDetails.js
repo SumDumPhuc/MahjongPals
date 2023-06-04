@@ -18,17 +18,19 @@ const AuthDetails = () => {
         return () => {
             listen();
         }
-    }, [])
+    },)
 
     const userSignOut = () => {
         signOut(auth).then(() => {
-            console.log('Sign Out Successful')
+            console.log('Sign Out Successful');
+            setAuthUser(null);
         }).catch(error => console.log(error))
     }
 
   return (
     <div className='text-center'>
-        { authUser ? <><p>{`Signed In as ${authUser.email}`}</p><button onClick={userSignOut}>Sign Out</button></> : <p>No user signed in</p> }
+        { authUser ? <><p>{`Signed in as ${authUser.email}`}</p>
+        <button onClick={userSignOut}>Sign Out</button></> : <p>No user signed in</p> }
     </div>
   )
 }

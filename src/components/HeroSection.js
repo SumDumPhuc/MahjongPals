@@ -11,9 +11,9 @@ function HeroSection() {
       className="btns"
       buttonStyle="btn--numberone"
       buttonSize="btn--large"
-      to="/play-now"
+      to="/sign-up"
       >
-      PLAY NOW
+      SIGN UP
       </Button>
 
       <Button
