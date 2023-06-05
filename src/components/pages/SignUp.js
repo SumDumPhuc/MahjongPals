@@ -4,7 +4,7 @@ import './SignUp.css';
 import {Link} from 'react-router-dom';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../firebase';
-
+import AuthDetails from '../AuthDetails';
 
 const SignUp = () => {
     const [email, setEmail] = useState();
@@ -41,6 +41,7 @@ const SignUp = () => {
     <div className='w-100 text-center mt-2'>
         Already have an account? <Link to='/sign-in'>Sign In</Link>
     </div>
+    <AuthDetails />
     </>
   )
 }

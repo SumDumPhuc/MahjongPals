@@ -1,0 +1,9 @@
+.image-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-message {
+    margin-left: 20px; /* Adjust the margin as needed */
+    font-size: 18px;
+  }
