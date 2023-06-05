@@ -3,7 +3,7 @@ import { Form, Button, Card } from 'react-bootstrap'
 import './SignUp.css';
 import {Link} from 'react-router-dom';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../../firebase';
+import { auth } from '../../Firebase';
 
 
 const SignUp = () => {
