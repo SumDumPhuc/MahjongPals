@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { auth } from '../firebase';
+import { auth } from '../Firebase';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 
 const AuthDetails = () => {
