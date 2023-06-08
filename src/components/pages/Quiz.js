@@ -157,8 +157,52 @@ const Quiz = () => {
     alert(`Your score is: ${score}/${selectedQuiz.questions.length}!`);
   };
   return (
-    <div>Quiz</div>
-  )
-}
+    <div>
+      <g2>Select a Quiz Level:</g2>
+      <div>
+        {quizzes.map((quiz, index) => (
+          <button
+            key={index}
+            className="quiz-level-button"
+            onClick={() => setSelectedQuiz(quiz)}
+          >
+            {quiz.level}
+          </button>
+        ))}
+      </div>
+
+      {selectedQuiz && (
+        <div>
+          <g3>{selectedQuiz.level} Quiz</g3>
+          {selectedQuiz.questions.map((question, index) => (
+            <div className="question" key={index}>
+  <div className="question-image">
+    {question.image && <img src={question.image} alt="Question" />}
+  </div>
+  <g4>{index + 1}. {question.question}</g4>
+  <div className="options">
+    {question.options.map((option, optionIndex) => (
+      <div
+        className={`option ${answers[index] === optionIndex ? 'selected' : ''}`}
+        key={optionIndex}
+        onClick={() => handleOptionSelect(index, optionIndex)}
+      >
+        <div className="selection-bubble"></div>
+        {option}
+      </div>
+    ))}
+  </div>
+</div>
+
+
+          ))}
+          <button className="submit-button" onClick={submitQuiz}>
+            Submit Quiz
+          </button>
+        </div>
+      )}
+    </div>
+  );
+};
 
 export default Quiz;
