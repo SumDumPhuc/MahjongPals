@@ -8,7 +8,7 @@ import Quiz from './components/pages/Quiz';
 import SignUp from './components/pages/SignUp';
 import SignIn from './components/pages/SignIn';
 import Leaderboard from './components/pages/Leaderboard';
-import PlayNow from './components/pages/PlayNow';
+import PlayNow from './components/pages/game/PlayNow';
 import Profile from './components/pages/Profile';
 
 

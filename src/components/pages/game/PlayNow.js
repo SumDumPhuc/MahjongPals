@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 function PlayNow() {
   return (
-    <div>PlayNow</div>
+    <>
+    <h2>Game</h2>
+    </>
   )
 }
 

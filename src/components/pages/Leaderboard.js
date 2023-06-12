@@ -2,7 +2,7 @@ import React from 'react'
 
 function Leaderboard() {
   return (
-    <div>Leaderboard</div>
+    <div><h2>Leaderboard</h2></div>
   )
 }
 
