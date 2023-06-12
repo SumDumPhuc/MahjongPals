@@ -9,11 +9,15 @@ import AuthDetails from '../AuthDetails';
 const SignUp = () => {
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
+    const [error, setError] = useState(null);
+    const [successMessage, setSuccessMessage] = useState(null);
 
     const signUp = (e) => {
         e.preventDefault();
-        createUserWithEmailAndPassword(auth, email, password).then((userCredential) => {console.log(userCredential)}).catch((error) => {
-            console.log(error);
+        createUserWithEmailAndPassword(auth, email, password).then((userCredential) => {
+            setSuccessMessage('Successfully signed up!');
+        }).catch((error) => {
+            setError(error.message);
         });
     };
 
@@ -36,6 +40,8 @@ const SignUp = () => {
                     Sign Up
                 </Button>
             </Form>
+            {error && <p className="error-message">{error}</p>}
+            {successMessage && <p className="success-message">{successMessage}</p>}
         </Card.Body>
     </Card>
     <div className='w-100 text-center mt-2'>
