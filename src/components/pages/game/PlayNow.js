@@ -3,7 +3,7 @@ import React from 'react';
 function PlayNow() {
   return (
     <>
-    <h2>Game</h2>
+    <h2>PlayNow</h2>
     </>
   )
 }
