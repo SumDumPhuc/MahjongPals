@@ -42,6 +42,11 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
+                        <Link to='/tutorial' className='nav-links' onClick={closeMobileMenu}>
+                            Tutorial
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
                         <Link to='/rules' className='nav-links' onClick={closeMobileMenu}>
                             Rules
                         </Link>
@@ -57,17 +62,22 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/calculator' className='nav-links' onClick={closeMobileMenu}>
-                            Calculator 
+                        <Link to='/taicalculator' className='nav-links' onClick={closeMobileMenu}>
+                            Tai Calculator 
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/play-now' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Play Now
+                        <Link to='/chipcalculator' className='nav-links' onClick={closeMobileMenu}>
+                            Chip Calculator 
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            SIGN UP
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--numbertwo' to='/play-now'>PLAY NOW</Button>}
+                {button && <Button buttonStyle='btn--numbertwo' to='/sign-up'>SIGN UP</Button>}
             </div>
         </nav>
     </>
