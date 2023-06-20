@@ -7,9 +7,8 @@ import Rules from './components/pages/Rules';
 import Quiz from './components/pages/Quiz';
 import SignUp from './components/pages/SignUp';
 import SignIn from './components/pages/SignIn';
-import Leaderboard from './components/pages/Leaderboard';
-import PlayNow from './components/pages/game/PlayNow';
-import Profile from './components/pages/Profile';
+import Forum from './components/pages/Forum';
+import Calculator from './components/pages/Calculator';
 
 
 function App() {
@@ -21,11 +20,10 @@ function App() {
          <Route path='/' exact element={<Home/>} />
          <Route path='/rules' element={<Rules/>} />
          <Route path='/quiz' element={<Quiz/>} />
-         <Route path='/leaderboard' element={<Leaderboard/>} /> 
+         <Route path='/forum' element={<Forum/>} /> 
          <Route path='/sign-up' element={<SignUp/>} /> 
          <Route path='/sign-in' element={<SignIn/>} />
-         <Route path='/profile' element={<Profile/>} />
-         <Route path='/play-now' element={<PlayNow/>} />
+         <Route path='/calculator' element={<Calculator/>} />
         </Routes>
       </Router>
     </>

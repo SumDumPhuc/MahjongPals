@@ -52,13 +52,13 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/leaderboard' className='nav-links' onClick={closeMobileMenu}>
-                            Leaderboard
+                        <Link to='/forum' className='nav-links' onClick={closeMobileMenu}>
+                            Forum
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/profile' className='nav-links' onClick={closeMobileMenu}>
-                            Profile
+                        <Link to='/calculator' className='nav-links' onClick={closeMobileMenu}>
+                            Calculator 
                         </Link>
                     </li>
                     <li className='nav-item'>

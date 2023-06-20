@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-const Profile = () => {
+const Calculator = () => {
 
   return (
     <div>
-      <h2>Profile</h2>
+      <h2>Calculator</h2>
     </div>
   );
 };
 
-export default Profile;
+export default Calculator;
