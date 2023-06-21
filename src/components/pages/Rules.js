@@ -141,7 +141,7 @@ function Rules() {
     <h2 style={{ marginTop: '20px', textDecoration: 'underline' }}>Different Moves</h2> 
 
     <h2 style={{ marginTop: '20px', textDecoration: 'underline' }}>GAME MOVE</h2>
-    <h3 style={{ marginTop: '10px', marginBottom: "10px"}}>When a tile is discarded, any other player may decide that they would like to win the game using that tile. If more than one person can win the game using that discarded tile then the person closest to the right hand side of the player (counterclockwise from the player) who discarded the tile will have priority and win the game. Further, the GAME move has priority over the KONG, PONG, and CHOW moves. A player invokes this move by clicking the GAME button. A player may not use a discarded tile to GAME (win) if that same tile was discarded previously and was not used by that player after that players last move. A players last move is defined by any new tile, chow, pong, or kong that was performed by the player. A player may not GAME on a tile that they last discarded. If a player picks a new tile and wants to win the game, they may do so by clicking the GAME button. To win the game a player must have a valid Mahjong combination and have the minimum number of Fan to win the game. (more on Fans below).</h3>
+    <h3 style={{ marginTop: '10px', marginBottom: "10px"}}>When a tile is discarded, any other player may decide that they would like to win the game using that tile. If more than one person can win the game using that discarded tile then the person closest to the right hand side of the player (counterclockwise from the player) who discarded the tile will have priority and win the game. Further, the GAME move has priority over the KONG, PONG, and CHOW moves. A player invokes this move by clicking the GAME button. A player may not use a discarded tile to GAME (win) if that same tile was discarded previously and was not used by that player after that players last move. A players last move is defined by any new tile, chow, pong, or kong that was performed by the player. A player may not GAME on a tile that they last discarded. If a player picks a new tile and wants to win the game, they may do so by clicking the GAME button. To win the game a player must have a valid Mahjong combination and have the minimum number of Tai to win the game. (more on Tais below).</h3>
 
     <h2 style={{ marginTop: '20px', textDecoration: 'underline' }}>CHOW MOVE</h2>
     <h3 style={{ marginTop: '10px', marginBottom: "10px"}}>When a tile is discarded, the player to the right of the player who discarded may choose to CHOW the tile. When a player CHOW's a discarded tile, the discarded tile plus two tiles from the players concealed tiles are moved to that players exposed tiles. The GAME, KONG, and PONG moves have priority over the CHOW move. If the user decides to CHOW there may be multiple ways of obtaining the CHOW. The user should click on the tiles that they wish to use for the CHOW. A player may not CHOW on a tile that he last discarded.</h3>
@@ -274,8 +274,66 @@ function Rules() {
 
     <h2 style={{ marginTop: '20px', textDecoration: 'underline' }}>Da Si Xi Hand</h2>
     <h3 style={{ marginTop: '10px', marginBottom: "10px"}}>In the case where a player has a Pong or Kong of all the 4 wind tiles they will automatically win the game regardless of whether they have a valid mahjong combination.
-    </h3>   
+    </h3>
 
+    <h2 style={{ marginTop: '20px', textDecoration: 'underline' }}>What is a Tai?</h2>
+    <h3 style={{ marginTop: '10px', marginBottom: "10px"}}>A Tai is something that will double the number of points that can be won for that particular game. Tai values are assigned to different tiles, tile combinations, and unique winning games. Tai values add together, such that if there are three tiles that are worth one Tai a piece, the player has a total of three Tai. Only the winning player for each game gets credit for the Tai that they have at the end of the game.
+    </h3>
+
+    <h2 style={{ marginTop: '20px', textDecoration: 'underline' }}>How to gain Tai?</h2>
+    <h3 style={{ marginTop: '10px', marginBottom: "10px"}}>There are many ways to get Tais during each game. Below is a list of the different ways and the values assigned to each way.
+
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>A Pong or Kong of any the Dragon Tiles - 1 Tai for each
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>A Pong or Kong of the Prevailing Wind for that game - 1 Tai
+    </h4>   
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>A Pong or Kong of the Player Game Wind for that game - 1 Tai
+    </h4>   
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>All Chow Game - 1 Tai
+    </h4>   
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Ping Wu Game - 4 Tai
+    </h4>   
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>All Pong Game - 2 Tai
+    </h4>   
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Half Color Game - 2 Tai
+    </h4>   
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Full Color Game - 4 Tai
+    </h4>    
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>All one's and nine's game - 5 Tai (Limit number of Tai)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Half one's and nine's game - 1 Tai (some people play 2 Tai)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>13 Wonders Game - 5 Tai (Limt number of Tai)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Animal Suit tiles - 1 Tai for each
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Complete set of the Animal Suit - 1 extra Tai (5 Tai total)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Flower Suit tiles that match the Players Wind - 1 Tai for each
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Complete set of Red Flower Suit - 1 extra Tai (2 Tai total)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Complete set of Black Flower Suit - 1 extra Tai (2 Tai total)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Picking the winning tile after a flower suit or animal suit with a replacement tile - 1 Tai
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Picking the winning tile after a flower suit or animal suit with a replacement tile - 1 Tai
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Picking the winning tile on the last valid tile left in the game - 1 Tai
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: "5px"}}>Winning the game on a tile when another player performs a One Concealed Tile Kong (Robbing the Kong) - 1 Tai
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: '5px'}}>Winning the game with seven or eight flower suit tiles - 5 Tai (Limit number of Tai)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: '5px'}}>Winning the game with a pong and/or a kong of each of the Dragon Tiles - 2 extra Tai (Limt number of Tai)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: '5px'}}>Winning the game with a pong and/or a kong of each of the Wind Tiles - 3 extra Tai (Limt number of Tai)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: '5px'}}>Winning the game with a pong and/or a kong of two of the three Dragon Tiles and having the third Dragon tile as the EYE - 1 extra Tai (3 Tai total)
+    </h4>
+    <h4 style={{ marginTop: '5px', marginBottom: '5px'}}>Winning the game with a pong and/or a kong of three of the four Dragon Tiles and having the third Dragon tile as the EYE - 4 Tai total
+    </h4>
+    </h3>
     </div>
     </>
   );

@@ -2,8 +2,13 @@ import React from 'react'
 
 function Forum() {
   return (
-    <div><h2>Forum</h2></div>
+    <div>Forum</div>
   )
 }
 
 export default Forum
+
+
+
+
+
