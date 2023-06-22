@@ -1,8 +1,9 @@
 import React from 'react'
+import TilePickerComponent from './TilePickerComponent';
 
 function TaiCalculator() {
   return (
-    <div>TaiCalculator</div>
+    <div><TilePickerComponent/></div>
   )
 }
 

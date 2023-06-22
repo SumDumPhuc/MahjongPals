@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transform: translate(+0%, -20%);
+  }
+  
+  .chip-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fieldPair {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .inputField {
+    width: 200px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+
+  .submitButton {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+  }
+
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .results h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .inputField {
+    font-size: 30px;
+  }

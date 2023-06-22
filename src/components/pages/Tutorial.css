@@ -1,0 +1,57 @@
+/* Tutorial.css */
+
+.tutorial-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    transform: translate(+50%, +5%);
+
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Align contents vertically */
+    align-items: center; /* Center contents horizontally */
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    text-align: center;
+  }
+  
+  .tutorial-button {
+    font-size: 1.1rem; /* Adjust font size for button text */
+    background-color: green;
+    padding: 0.5rem 1rem; /* Adjust padding for button size */
+    color: white;
+    
+    }
+
+  .button-group {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .image-in-screens {
+    width: 90%;
+    height: 90%;
+    transform: translate(+55%, +600%);
+  }
+
+  .screen-container {
+    transform: translate(-50%, -200%);
+
+  }
