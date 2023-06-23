@@ -8,11 +8,12 @@
     
   }
   
-  .image-container {
-    position: relative;
+  .image-container-tutorial {
+    display: flex;
+    align-items: center;
   }
   
-  .image {
+  .image-tutorial {
     width: 50%;
     height: 50%;
     object-fit: cover;
@@ -20,7 +21,7 @@
 
   }
   
-  .button-container {
+  .button-container-tutorial {
     display: flex;
     flex-direction: column; /* Align contents vertically */
     align-items: center; /* Center contents horizontally */

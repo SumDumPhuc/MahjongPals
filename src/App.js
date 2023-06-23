@@ -7,7 +7,6 @@ import Rules from './components/pages/Rules';
 import Quiz from './components/pages/Quiz';
 import SignUp from './components/pages/SignUp';
 import SignIn from './components/pages/SignIn';
-import Forum from './components/pages/Forum';
 import Tutorial from './components/pages/Tutorial';
 import TaiCalculator from './components/pages/TaiCalculator';
 import ChipCalculator from './components/pages/ChipCalculator';
@@ -23,7 +22,6 @@ function App() {
          <Route path='/tutorial' element={<Tutorial/>} /> 
          <Route path='/rules' element={<Rules/>} />
          <Route path='/quiz' element={<Quiz/>} />
-         <Route path='/forum' element={<Forum/>} /> 
          <Route path='/sign-up' element={<SignUp/>} /> 
          <Route path='/sign-in' element={<SignIn/>} />
          <Route path='/taicalculator' element={<TaiCalculator/>} />

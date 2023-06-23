@@ -88,7 +88,7 @@ function ChipCalculator() {
   };
 
 return (
-    <div className="container">
+    <div className="container-cc">
       <h1 className="title">Chip Calculator</h1>
       {!submitted && (
         <form onSubmit={handleSubmit} className="form">

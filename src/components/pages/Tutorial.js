@@ -63,15 +63,15 @@ function Tutorial() {
   return (
     <div className="tutorial-container">
       {currentScreen < 2 && (
-        <div className="image-container">
+        <div className="image-container-tutorial">
           <img
             src={backgroundImage}
             alt="Mahjong Tutorial"
-            className="image"
+            className="image-tutorial"
           />
         </div>
       )}
-      <div className="button-container">
+      <div className="button-container-tutorial">
         <h1>{screens[currentScreen].title}</h1>
         <p>{screens[currentScreen].content}</p>
         {currentScreen === 0 ? (
