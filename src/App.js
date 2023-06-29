@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-         <Route path='/mahjongpals' exact element={<Home/>} />
+         <Route path='/home' exact element={<Home/>} />
          <Route path='/tutorial' element={<Tutorial/>} /> 
          <Route path='/rules' element={<Rules/>} />
          <Route path='/quiz' element={<Quiz/>} />
