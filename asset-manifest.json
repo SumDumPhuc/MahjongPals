@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mahjongpals/static/css/main.2b33adda.css",
-    "main.js": "/mahjongpals/static/js/main.ca091810.js",
+    "main.js": "/mahjongpals/static/js/main.5de0f397.js",
     "static/media/FlowersSuit.jpg": "/mahjongpals/static/media/FlowersSuit.492a81ccd7c43fdc3c9d.jpg",
     "static/media/BeginnerQn3.png": "/mahjongpals/static/media/BeginnerQn3.eff48764e985cb5efbac.png",
     "static/media/IntermediateQn1.png": "/mahjongpals/static/media/IntermediateQn1.9b3902e8fdb0321413c6.png",
@@ -31,10 +31,10 @@
     "static/media/AllPong.jpg": "/mahjongpals/static/media/AllPong.44e027d21c2c7cef4baf.jpg",
     "index.html": "/mahjongpals/index.html",
     "main.2b33adda.css.map": "/mahjongpals/static/css/main.2b33adda.css.map",
-    "main.ca091810.js.map": "/mahjongpals/static/js/main.ca091810.js.map"
+    "main.5de0f397.js.map": "/mahjongpals/static/js/main.5de0f397.js.map"
   },
   "entrypoints": [
     "static/css/main.2b33adda.css",
-    "static/js/main.ca091810.js"
+    "static/js/main.5de0f397.js"
   ]
 }
