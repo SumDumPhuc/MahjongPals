@@ -44,15 +44,6 @@
     color: #fff;
     font-size: 100px;
   }
-
-  .leaderboard {
-    background-image: url('/src/images/mjpalslogo.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
   
   .sign-up {
     background-image: url('/src/images/mjpalslogo.jpg');
