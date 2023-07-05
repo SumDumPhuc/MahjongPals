@@ -8,7 +8,6 @@ import Quiz from './components/pages/Quiz';
 import SignUp from './components/pages/SignUp';
 import SignIn from './components/pages/SignIn';
 import Tutorial from './components/pages/Tutorial';
-import TaiCalculator from './components/pages/TaiCalculator';
 import ChipCalculator from './components/pages/ChipCalculator';
 
 
@@ -18,13 +17,12 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-         <Route path='/home' exact element={<Home/>} />
+         <Route path='/' exact element={<Home/>} />
          <Route path='/tutorial' element={<Tutorial/>} /> 
          <Route path='/rules' element={<Rules/>} />
          <Route path='/quiz' element={<Quiz/>} />
          <Route path='/sign-up' element={<SignUp/>} /> 
          <Route path='/sign-in' element={<SignIn/>} />
-         <Route path='/taicalculator' element={<TaiCalculator/>} />
          <Route path='/chipcalculator' element={<ChipCalculator/>} />
         </Routes>
       </Router>

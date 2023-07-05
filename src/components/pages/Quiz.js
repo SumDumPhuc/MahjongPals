@@ -69,7 +69,7 @@ const Quiz = () => {
         },
         {
           image: iQ2,
-          question: "How many doubles does this hand give?",
+          question: "How many tai is this hand worth?",
           options: [
             "1",
             "2",
@@ -80,7 +80,7 @@ const Quiz = () => {
         },
         {
           image: iQ3,
-          question: "How many doubles does this hand give?",
+          question: "How many tai is this hand worth?",
           options: [
             "2",
             "3",
