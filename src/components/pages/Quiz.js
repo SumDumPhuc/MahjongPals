@@ -3,6 +3,13 @@ import React, { useState } from 'react';
 import bgQ2 from '../../images/BeginnerQn2.png';
 import bgQ1 from '../../images/BeginnerQn1.png';
 import bgQ3 from '../../images/BeginnerQn3.png';
+import bgQ4 from '../../images/BeginnerQn4.png';
+import bgQ5 from '../../images/BeginnerQn5.png';
+import bgQ6 from '../../images/BeginnerQn6.png';
+import bgQ7 from '../../images/BeginnerQn7.png';
+import bgQ8 from '../../images/BeginnerQn8.png';
+import bgQ9 from '../../images/BeginnerQn9.png';
+import bgQ10 from '../../images/BeginnerQn10.png';
 import iQ1 from '../../images/IntermediateQn1.png';
 import iQ2 from '../../images/IntermediateQn2.png';
 import iQ3 from '../../images/IntermediateQn3.png';
@@ -50,6 +57,81 @@ const Quiz = () => {
             "One Ball"
           ],
           answer: 0
+        },
+        {
+          image: bgQ4,
+          question: "Pick the winning tile!",
+          options: [
+            "Eight Bamboo",
+            "Nine Wan",
+            "Red Dragon",
+            "Two Ball"
+          ],
+          answer: 1
+        },
+        {
+          image: bgQ5,
+          question: "Pick the winning tile!",
+          options: [
+            "Six Wan",
+            "Seven Bamboo",
+            "Four Bamboo",
+            "Three Bamboo"
+          ],
+          answer: 2
+        },
+        {
+          image: bgQ6,
+          question: "Pick the winning tile!",
+          options: [
+            "Six Wan",
+            "West Wind",
+            "Four Ball",
+            "One Ball"
+          ],
+          answer: 2
+        },
+        {
+          image: bgQ7,
+          question: "Pick the winning tile!",
+          options: [
+            "Green Dragon",
+            "Seven Wan",
+            "One ball",
+            "Four Ball"
+          ],
+          answer: 3
+        },
+        {
+          image: bgQ8,
+          question: "Pick the winning tile!",
+          options: [
+            "Nine Ball",
+            "East Wind",
+            "Nine Wan",
+            "Seven Ball"
+          ],
+          answer: 0
+        },
+        {
+          image: bgQ9,
+          question: "Assuming you have no flowers, how many tai is this hand worth?",
+          options: [
+            "1 Tai",
+            "2 Tai",
+            "3 Tai",
+            "4 Tai"
+          ],
+          answer: 3
+        },
+        {
+          image: bgQ10,
+          question: "Is this a winning hand?",
+          options: [
+            "Yes",
+            "No"
+          ],
+          answer: 1
         },
       ]
     },
