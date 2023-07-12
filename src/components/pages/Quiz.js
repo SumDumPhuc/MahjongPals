@@ -16,6 +16,13 @@ import iQ3 from '../../images/IntermediateQn3.png';
 import eQ1 from '../../images/ExpertQn1.png';
 import eQ2 from '../../images/ExpertQn2.png';
 import eQ3 from '../../images/ExpertQn3.png';
+import eQ4 from '../../images/ExpertQn4.png';
+import eQ5 from '../../images/ExpertQn5.png';
+import eQ6 from '../../images/ExpertQn6.png';
+import eQ7 from '../../images/ExpertQn7.png';
+import eQ8 from '../../images/ExpertQn8.png';
+import eQ9 from '../../images/ExpertQn9.png';
+import eQ10 from '../../images/ExpertQn10.png';
 
 const Quiz = () => {
   const [answers, setAnswers] = useState([]);
@@ -208,6 +215,75 @@ const Quiz = () => {
             "Nine Ball"
           ],
           answer: 3
+        },
+        {
+          image: eQ4,
+          question: "What tiles is this hand waiting for?",
+          options: [
+            "One and Four Bamboo",
+            "One, Four and Seven Bamboo",
+            "Two, Five and Eight Bamboo",
+            "One to Nine Bamboo"
+          ],
+          answer: 3
+        },
+        {
+          image: eQ5,
+          question: "What tiles is this hand waiting for?",
+          options: [
+            "One and Four Bamboo",
+            "One, Four and Seven Bamboo",
+            "Two, Five and Eight Bamboo",
+            "One to Nine Bamboo"
+          ],
+          answer: 1
+        },
+        {
+          image: eQ6,
+          question: "What tiles is this hand waiting for?",
+          options: [
+            "One, Three, Four, Six, Seven, Nine Bamboo",
+            "One, Four and Seven Bamboo",
+            "Two, Five and Eight Bamboo",
+            "One to Nine Bamboo"
+          ],
+          answer: 0
+        },
+        {
+          image: eQ7,
+          question: "Is this a valid winning hand?",
+          options: [
+            "Yes",
+            "No"
+          ],
+          answer: 1
+        },
+        {
+          image: eQ8,
+          question: "Is this a valid winning hand?",
+          options: [
+            "Yes",
+            "No"
+          ],
+          answer: 0
+        },
+        {
+          image: eQ9,
+          question: "Is this a valid winning hand?",
+          options: [
+            "Yes",
+            "No"
+          ],
+          answer: 0
+        },
+        {
+          image: eQ10,
+          question: "Is this a valid winning hand?",
+          options: [
+            "Yes",
+            "No"
+          ],
+          answer: 0
         },
       ]
     },
