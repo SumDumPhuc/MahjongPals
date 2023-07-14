@@ -13,6 +13,13 @@ import bgQ10 from '../../images/BeginnerQn10.png';
 import iQ1 from '../../images/IntermediateQn1.png';
 import iQ2 from '../../images/IntermediateQn2.png';
 import iQ3 from '../../images/IntermediateQn3.png';
+import iQ4 from '../../images/IntermediateQn4.png';
+import iQ5 from '../../images/IntermediateQn5.png';
+import iQ6 from '../../images/IntermediateQn6.png';
+import iQ7 from '../../images/IntermediateQn7.png';
+import iQ8 from '../../images/IntermediateQn8.png';
+import iQ9 from '../../images/IntermediateQn9.png';
+import iQ10 from '../../images/IntermediateQn10.png';
 import eQ1 from '../../images/ExpertQn1.png';
 import eQ2 from '../../images/ExpertQn2.png';
 import eQ3 from '../../images/ExpertQn3.png';
@@ -177,6 +184,77 @@ const Quiz = () => {
             "5"
           ],
           answer: 2
+        },
+        {
+          image: iQ4,
+          question: "What tiles is this hand waiting for?",
+          options: [
+            "Seven Wan",
+            "Seven Wan and Red Dragon",
+            "Red Dragon",
+            "Six Wan"
+          ],
+          answer: 1
+        },
+        {
+          image: iQ5,
+          question: "What tiles is this hand waiting for?",
+          options: [
+            "Seven Ball",
+            "Six and Nine Ball",
+            "Eight Ball",
+            "Six, Eight and Nine Ball"
+          ],
+          answer: 3
+        },
+        {
+          image: iQ6,
+          question: "What tiles is this hand waiting for?",
+          options: [
+            "Six and Nine Bamboo",
+            "Six, Eight and Nine Bamboo",
+            "Six Ball",
+            "Eight Bamboo"
+          ],
+          answer: 0
+        },
+        {
+          image: iQ7,
+          question: "What tiles is this hand waiting for?",
+          options: [
+            "Six and Nine Wan",
+            "Six and Nine Ball",
+            "Three and Six Wan",
+            "Three and Six Wan, Six and Nine Ball"
+          ],
+          answer: 2
+        },
+        {
+          image: iQ8,
+          question: "Is this a valid winning hand?",
+          options: [
+            "Yes",
+            "No"
+          ],
+          answer: 1
+        },
+        {
+          image: iQ9,
+          question: "Is this a valid winning hand?",
+          options: [
+            "Yes",
+            "No"
+          ],
+          answer: 0
+        },
+        {
+          image: iQ10,
+          question: "Is this a valid winning hand?",
+          options: [
+            "Yes",
+            "No"
+          ],
+          answer: 0
         },
       ]
     },
